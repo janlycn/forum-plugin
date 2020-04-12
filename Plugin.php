@@ -55,20 +55,20 @@ class Plugin extends PluginBase
             $widget->addFields([
                 'forum_member[username]' => [
                     'label'   => 'rainlab.forum::lang.settings.username',
-                    'tab'     => 'Forum',
+                    'tab'     => 'rainlab.forum::lang.plugin.name',
                     'comment' => 'rainlab.forum::lang.settings.username_comment'
                 ],
                 'forum_member[is_moderator]' => [
                     'label'   => 'rainlab.forum::lang.settings.moderator',
                     'type'    => 'checkbox',
-                    'tab'     => 'Forum',
+                    'tab'     => 'rainlab.forum::lang.plugin.name',
                     'span'    => 'auto',
                     'comment' => 'rainlab.forum::lang.settings.moderator_comment'
                 ],
                 'forum_member[is_banned]' => [
                     'label'   => 'rainlab.forum::lang.settings.banned',
                     'type'    => 'checkbox',
-                    'tab'     => 'Forum',
+                    'tab'     => 'rainlab.forum::lang.plugin.name',
                     'span'    => 'auto',
                     'comment' => 'rainlab.forum::lang.settings.banned_comment'
                 ]

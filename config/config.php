@@ -9,7 +9,7 @@
       | (Works alongside throttleMinutes to restrict a user to throttleCount per throttleMinutes)
       |
       */
-    'throttleCount' => 2,
+    'throttleCount' => 10,
 
       /*
       |--------------------------------------------------------------------------

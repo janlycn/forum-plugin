@@ -103,6 +103,7 @@ class Topic extends Model
         $topic->subject = array_get($data, 'subject');
         $topic->channel = $channel;
         $topic->start_member = $member;
+        $topic->slug = time();
 
         $post = new Post;
         $post->topic = $topic;
@@ -166,6 +167,7 @@ class Topic extends Model
             $topic->embed_code = $code;
             $topic->channel = $channel;
             $topic->start_member_id = 0;
+            $topic->slug = time();
             $topic->save();
         }
 
